@@ -5,8 +5,12 @@ description = ""
 authors = ["Matti Luukkainen"]
 readme = "README.md"
 
+packages = [
+    { include = "src" },
+]
+
 [tool.poetry.dependencies]
-python = "^3.12-3"
+python = "^3.12.3"
 
 
 [tool.poetry.group.dev.dependencies]
